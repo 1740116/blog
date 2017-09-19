@@ -7,15 +7,32 @@ and open the template in the editor.
     Created on : Sep 12, 2017, 2:39:17 PM
     Author     : Luc Desforges
 */
-p
-{font-weight: bold;
-color: chartreuse
+*
+{   
+    font-family: "Times", Georgia, Serif;
+    color: red    
 }
+
 h1
-{font-weight: bold;
-color: darkred
+{
+    font-weight: bold;
+    font-size: larger;
+    background-color: red;
+    margin-right: 75%;
+    color: white;
+    border-color: black;
+    padding: 2px
 }
-h2
-{font-weight: bold;
-color: coral
+ul
+{
+    list-style-type: square
+}
+.bob
+{
+    font-size: small
+        
+}
+h6
+{
+    opacity: 0.0;
 }
